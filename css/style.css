@@ -217,6 +217,13 @@ main {
     transition: max-height 0.2s ease-out;
 }
 
+.badge {
+    padding: 4px 8px;
+    border: 2px solid var(--secondary-color);
+    border-radius: 8px;
+    display: inline-block;
+}
+
 #rightSidebar {
     order: 3;
 }
