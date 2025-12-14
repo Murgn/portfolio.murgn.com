@@ -98,7 +98,6 @@ sup::after {
     margin-left: 1px;
 }
 
-
 code {
     background-color: var(--background-color);
     padding: 3px 7px 3px 7px;
@@ -223,10 +222,12 @@ main {
 }
 
 .badge {
-    padding: 4px 8px;
+    padding: 6px 8px;
     border: 2px solid var(--secondary-color);
     border-radius: 8px;
-    display: inline-block;
+    display: inline-flex;
+    align-items: center;
+    line-height: 1;
 }
 
 #rightSidebar {
