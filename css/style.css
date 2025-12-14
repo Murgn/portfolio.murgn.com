@@ -63,7 +63,7 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 0.5em;   
 }
 
-ul {
+#leftSidebar ul, #rightSidebar ul, #header ul{
     list-style-type: "// ";
 }
 
@@ -184,9 +184,14 @@ main {
 
 .panel-header .panel-image img {
     min-width: 250px;
+    max-width: 250px;
     height: auto;
     display: block;
     border-radius: 7%;
+}
+
+.description b {
+    color: var(--secondary-color);
 }
 
 .collapsible button {
